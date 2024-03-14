@@ -25,7 +25,9 @@ function Forms() {
     
 
     return (
-      <div>
+      <div className="container">
+        <h1>Cadastra Briefing</h1>
+        <p>Insira os dados do briefing abaixo:</p>
         <form className='form-container' onSubmit={handleSubmit}>
           <div>
             <label>
