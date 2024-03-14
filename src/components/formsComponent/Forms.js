@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './Form.css'
-import BriefingCard from '../briefingCardComponent/briefingCard';
 
 function Forms({briefings, setBriefings}) {
 
@@ -99,11 +98,6 @@ function Forms({briefings, setBriefings}) {
         </div>
         <button type="submit">Enviar</button>
       </form>
-      <div className="briefings-container">
-        {briefings.map((briefing, index) => (
-          <BriefingCard key={index} briefing={briefing} />
-        ))}
-      </div>
     </div>
   )
 }
